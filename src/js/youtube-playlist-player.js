@@ -1,6 +1,6 @@
 (function ( $ ) {
     'use strict';
-    var player_api_url  = "http://www.youtube.com/player_api/";
+    var player_api_url  = "//www.youtube.com/player_api/";
     var globalPLayer    = false;
     var apiLoaded       = false;
     var players         = [];
