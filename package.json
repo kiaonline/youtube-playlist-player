@@ -1,0 +1,32 @@
+{
+    "title": "Youtube Playlist Player - jQuery Plugin",
+    "name": "ypp",
+    "version": "4.0.0",
+    "description": "jQuery Plugin to play user playlist video",
+    "keywords": [
+        "youtube",
+        "playlist"
+    ],
+    "homepage": "https://github.com/kiaonline/ypp#readme",
+    "license": "MIT",
+    "author": "kiaonline",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kiaonline/ypp.git"
+    },
+    "dependencies": {
+        "bootstrap": "4.0.0",
+        "popper.js": "^1.12.9",
+        "font-awesome": "^4.7.0",
+        "jquery": "3.3.1",
+        "jquery.easing": "^1.4.1"
+    },
+    "devDependencies": {
+        "browser-sync": "^2.24.6",
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "3.9.2",
+        "gulp-rename": "^1.2.2",
+        "gulp-sass": "^3.1.0",
+        "gulp-uglify": "3.0.0"
+    }
+}

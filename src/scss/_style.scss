@@ -1,0 +1,44 @@
+html{
+}
+body{
+    
+    &.bg-custom{
+        background-color: #fff;
+    }
+}
+a{
+    color: #646464;
+}
+h1{
+    margin:20px;
+}
+.content-wrapper{
+    background-color: #eee;
+}
+
+.breadcrumb{
+    background-color: #ececec;
+    border: 1pX solid #ccc;
+    > li {
+        display: inline-block;
+        &.active{
+            color: #ccc;
+        }
+        & + li::before {
+
+            padding: 0 5px;
+            color: #ccc;
+            content: "/\00a0";
+        
+        }
+    }
+}
+iframe{
+    width: 100%;
+}
+.coffee{
+    h3,
+    form{
+        padding: 10px;
+    }
+}
